@@ -1,0 +1,56 @@
+<div style="
+background-color: #f1f1f1;
+text-align: center;
+padding: 40px
+">
+<img src='toyattan1.png' alt="谭思程" width="80px" height="80px">
+</div>
+<div style="
+max-width: 500px;
+margin: 30px auto;
+padding: 15px;
+line-height: 1.7;
+font-family: 'Microsoft YaHei', sans-serif;
+color: #666666;
+font-weight: bold;
+">
+<p>朋友，你好：</p>
+<p>我是谭思程，欢迎访问我的个人网站</p>
+<p>我出生于中国新疆，在西安石油大学获得管理学学士学位，2021年起就职于中免集团三亚市内免税店有限公司，从事员工奖惩、劳动风险把控及劳动争议工作，对国家《劳动法》、《劳动合同法》、地方法规及人事工作较熟悉，有处理试用期、违规等解除劳动合同经验，有处理至少10起劳动争议案经验</p>
+<p>在业余时间，我喜欢玩PC游戏、例如：BF1、Sid Meier's Civilization® VI等，喜欢游泳、潜水，有进阶开放水域潜水员及自由潜潜水员证书，个人目前也对编程、AI有较为强烈的兴趣</p>
+<p>如果你也和我一样，从事类似的工作、有相似的兴趣，欢迎随时交流</p>
+<p>我们都在期待更好的自己</p>
+</div>
+<div style="
+background-color: #f1f1f1;
+text-align: center;
+padding: 40px;
+font-size: 12px;
+font-family: 'Microsoft YaHei', sans-serif;
+color: #666666;
+font-weight: bold;
+">
+<p>Mail：toyattan@gmail.com  Wechat：CbeestraveBBBBB</p>
+<p>教学及设计灵感源于：https://kangwenchang.com/</p>
+<a href=" https://b23.tv/k9wy97r"> 获取更多</a>
+<p class="datetime_display" id="datetimeDisplay">YYYY年M月D日 HH:MM</p>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    function updateDateTime() {
+        let now = new Date();
+        let year = now.getFullYear();
+        let month = now.getMonth() + 1;
+        let day = now.getDate();
+        let hours = now.getHours();
+        let minutes = now.getMinutes();
+        if (month < 10) month = '0' + month;
+        if (day < 10) day = '0' + day;
+        if (hours < 10) hours = '0' + hours;
+        if (minutes < 10) minutes = '0' + minutes;
+        document.getElementById('datetimeDisplay').textContent = `${year}年${month}月${day}日 ${hours}:${minutes}`;
+    }
+    setInterval(updateDateTime, 1000); // Update every second
+    updateDateTime(); // Call immediately to set the initial value
+});
+</script>
+</div>
